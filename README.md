@@ -32,4 +32,12 @@ End Time: 5:10am
 Completed:  JavaScript section 7 complete
             doing challeneges and uploading to github
             completed challenge 1 & 2
+
+8/02/2024: Duration  Hours &  Minutes
+Start Time: 5:08pm
+End Time: 
+Completed:  JavaScript section 7 complete
+            doing challeneges and uploading to github
+            working challenge 4 and getting started on fundamentals 2 challenges 
+
             
