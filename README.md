@@ -26,9 +26,10 @@ Start Time: 7:55pm
 End Time: 4:47am
 Completed:  JavaScript course Section 7
 
-8/02/2024: Duration ? Hours
+8/02/2024: Duration 2 Hours & 32 Minutes
 Start Time: 2:38am
-End Time: 
+End Time: 5:10am
 Completed:  JavaScript section 7 complete
             doing challeneges and uploading to github
+            completed challenge 1 & 2
             
