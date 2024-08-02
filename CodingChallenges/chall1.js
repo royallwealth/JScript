@@ -24,3 +24,24 @@ John weighs 92 kg and is 1.95 m tall.
 TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. 
 John weights 85 kg and is 1.76 m tall. 
 */
+
+//Test Data 1
+let massMark = 78;
+let heightMark = 1.69;
+let massJohn = 92;
+let heightJohn = 1.95;
+
+const BMIMark = massMark/(heightMark * 2);
+const BMIJohn = massJohn/(heightJohn * 2);
+// console.log(BMIMark, BMIJohn); 
+
+let markHigherBMI = BMIMark >= BMIJohn;
+//console.log(markHigherBMI);
+
+//Test Data 2
+massMark = 95;
+heightMark = 1.88;
+massJohn = 85;
+heightJohn = 1.76;
+
+console.log(BMIMark, BMIJohn);
