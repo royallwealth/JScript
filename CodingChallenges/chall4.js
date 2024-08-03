@@ -26,3 +26,9 @@ HINT 2: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 
 👋 OPTIONAL: You can watch my solution in video format in the next lecture!
 */
+
+const bill = 275;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+const total = bill + tip;
+
+console.log(total);
