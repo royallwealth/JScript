@@ -3,8 +3,10 @@
 
 Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new gymnastics
 discipline, which works differently.
+
 Each team competes 3 times, and then the average of the 3 scores is calculated 
 (so one average score per team).
+
 A team only wins if it has at least double the average score of the other team. 
 Otherwise, no team wins!
 
@@ -12,6 +14,7 @@ Your tasks:
 
 Create an arrow function calcAverage to calculate the average of 3 scores. This function 
 should have three parameters and return a single number (the average score).
+
 Create two new variables — scoreDolphins and scoreKoalas, and assign the value returned 
 from the calcAverage function to them (you will need to call this function, and pass 
 scores as arguments).
@@ -27,3 +30,30 @@ Ignore draws this time. Instead, log No team wins... to the console if there is 
 TEST DATA 1: Dolphins scored 44, 23, and 71. Koalas scored 65, 54, and 49.
 TEST DATA 2: Dolphins scored 85, 54, and 41. Koalas scored 23, 34, and 27.
 */
+
+
+//Arrow function
+const calcAverage = (scores) => (scores) / 3;
+//console.log(calcAverage(32, 12, 6));
+
+//using Math.trunc to remove decimals
+const scoreDolphins = Math.trunc(calcAverage(85, 54, 41));
+const scoreKoalas = Math.trunc(calcAverage(23, 34, 27));
+//console.log(scoreDolphins, scoreKoalas);
+
+const checkWinner = function (avgDolphins, avgKoalas) {
+    // avgDolphins = scoreDolphins; <= redundant don't need
+    // avgKoalas = scoreKoalas; <=
+
+    if(avgDolphins >= 2 * avgKoalas){
+        console.log(`Dolphins win! (${avgDolphins} Vs ${avgKoalas})`);
+    } else if(avgKoalas >= 2 * avgDolphins){
+        console.log(`Koalas win! (${avgKoalas} Vs ${avgDolphins})`)
+
+    } else {
+        console.log('No Winner!');
+    }
+}
+
+//Make sure to call the function and pass the parameters the original function is asking for.
+checkWinner(scoreDolphins, scoreKoalas);
