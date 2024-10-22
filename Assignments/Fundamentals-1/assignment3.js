@@ -11,8 +11,8 @@ change?). Then, change these variables to const.
 */
 
 
-// const country = 'United States';
-// const continent = 'North America';
-// const isIsland = false;
-// let language;
-// language = 'English';
+const country = 'United States';
+const continent = 'North America';
+const isIsland = false;
+let language;
+language = 'English';
