@@ -17,21 +17,21 @@ the average country?
 with this format: 'Portugal is in Europe, and its 11 million people speak portuguese'.
 */
 
-// const country = 'United States';
-// const continent = 'North America';
-// let population = 333;
-// const isIsland = false;
-// let language;
-// language = 'English';
+const country = 'United States';
+const continent = 'North America';
+let population = 333;
+const isIsland = false;
+let language;
+language = 'English';
 
-// population++;
-// const description = `${country} is in ${continent}, and its ${population} million people speak
-// ${language}.`;
+population++;
+const description = `${country} is in ${continent}, and its ${population} million people speak
+${language}.`;
 
 
  // Log to console
-// console.log(population / 2);
-// console.log(population);
-// console.log(country > 6);
-// console.log(population < 33);
-// console.log(description);
+console.log(population / 2);
+console.log(population);
+console.log(country > 6);
+console.log(population < 33);
+console.log(description);
