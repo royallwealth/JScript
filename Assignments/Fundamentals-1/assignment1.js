@@ -5,9 +5,9 @@ to your own country (population in millions).
 2. Log their values to the console. */
 
 
-// const country = 'United States';
-// const continent = 'North America';
-// let population = 333;
+/const country = 'United States';
+const continent = 'North America';
+let population = 333;
 
-//console.log(country, continent, population);
+console.log(country, continent, population);
 
