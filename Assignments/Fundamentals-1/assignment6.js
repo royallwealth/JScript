@@ -10,8 +10,8 @@ population).
 different results, and set the population back to original.
 */
 
-// if(population > 33){
-//     console.log(`${country}'s population is above average`);
-//   } else {
-//     console.log(`${country}'s population is ${(population - 33)/2} million below average`);
-//   }
+if(population > 33){
+     console.log(`${country}'s population is above average`);
+} else {
+     console.log(`${country}'s population is ${(population - 33)/2} million below average`);
+}
