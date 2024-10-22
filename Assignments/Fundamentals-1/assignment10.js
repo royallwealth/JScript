@@ -16,7 +16,7 @@ arabic: '5th most spoken language';
 for all other simply log 'Great language too :D'.
  */
 
-/*
+
 let language;
 
 language = 'french';
@@ -41,4 +41,4 @@ switch(language){
     default:
         console.log('Great language too :D');
 
-}*/
+}
