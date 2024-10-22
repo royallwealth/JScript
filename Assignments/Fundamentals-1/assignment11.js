@@ -12,12 +12,12 @@ and set the population back to original.
  */
 
 
-// const country = 'United States';
-// const continent = 'North America';
-// let population = 333;
-// const isIsland = false;
-// let language;
-// language = 'English';
+ const country = 'United States';
+ const continent = 'North America';
+ let population = 333;
+ const isIsland = false;
+ let language;
+ language = 'English';
 
-// const average = population > 33 ? 'above' : `below`;
-// console.log(`${country}'s population is ${average} average.`);
+ const average = population > 33 ? 'above' : `below`;
+ console.log(`${country}'s population is ${average} average.`);
