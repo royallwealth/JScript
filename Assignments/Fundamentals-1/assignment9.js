@@ -18,15 +18,15 @@ log 'Portugal does not meet your criteria :('.
 variables in order to make the condition true (unless you live in Canada :D).
 */
 
-// const country = 'United States';
-// const continent = 'North America';
-// let population = 33;
-// const isIsland = false;
-// let language;
-// language = 'English';
+ const country = 'United States';
+ const continent = 'North America';
+ let population = 33;
+ const isIsland = false;
+ let language;
+ language = 'English';
 
-// if(language === 'English' && population < 50 && !isIsland){
-//     console.log(`You should live in ${country} :)`);
-// } else {
-//     console.log(`${country} does not meet your criteria :(`);
-// }
+ if(language === 'English' && population < 50 && !isIsland){
+     console.log(`You should live in ${country} :)`);
+ } else {
+     console.log(`${country} does not meet your criteria :(`);
+ }
