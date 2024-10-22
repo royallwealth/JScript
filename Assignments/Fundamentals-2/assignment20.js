@@ -12,7 +12,7 @@ called isIsland. isIsland will be true if there are no neighbouring countries, a
 Use the ternary operator to set the property.
  */
 
-/*const myCountry = {
+const myCountry = {
     country: 'United States',
     capital: 'Washignton',
     language: 'english',
@@ -31,4 +31,4 @@ Use the ternary operator to set the property.
   myCountry.describe();
   myCountry.checkIsland();
   
-  console.log(myCountry);*/
+  console.log(myCountry);
